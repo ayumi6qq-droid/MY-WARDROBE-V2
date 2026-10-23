@@ -1,0 +1,11 @@
+請將目前目錄的 MY WARDROBE V2 PWA 部署到我自己的 GitHub Pages。
+
+專案已備妥 index.html、sw.js、manifest.webmanifest、icons/、.nojekyll，全部使用相對路徑，支援 GitHub Pages 專案子路徑及離線使用。
+
+1. 先確認 `gh auth status` 是否已登入 GitHub；未登入時先向我要求授權，不得自行使用他人的帳號。
+2. 在我的帳號建立名為 `my-wardrobe-v2` 的 GitHub repository（預設公開；建立前確認我接受網站內容公開）。
+3. 將本資料夾所有檔案 commit 與 push 到 main；不能只上傳 zip。
+4. 在 GitHub Pages 設為從 main/(root) 發布，確認 HTTPS 網址可存取。
+5. 確認 manifest、sw.js、icons 都成功回應，首訪安裝 SW 後測試離線載入、篩選、80 張圖片、A/B、點擊放大。
+6. 回報實際 repository URL、Pages URL、部署狀態；不得在未確認發布前聲稱成功。
+7. 不變更電子衣櫥內容、不重生任何圖片、不改手機既有 A/B 介面。
